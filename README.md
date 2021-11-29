@@ -59,6 +59,3 @@ systemctl stop wg-quick@wgcf
 systemctl start wg-quick@wgcf
 重启
 systemctl restart wg-quick@wgcf
-
---
-解锁的效果图，新加坡，美国
