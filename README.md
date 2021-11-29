@@ -59,3 +59,13 @@ systemctl stop wg-quick@wgcf
 systemctl start wg-quick@wgcf
 重启
 systemctl restart wg-quick@wgcf
+
+screen -S qwe
+创建一个名字叫qwe的screen，
+等完事了，按住ctrl+A+D，从qwe退出
+
+screen -r qwe
+就是再连进qwe
+
+screen -ls
+查看有几个screen窗口
